@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./styles.module.css";
-
+import Link from "next/link";
 const Header = () => {
   return (
     <header className={styles.header}>
@@ -8,13 +8,13 @@ const Header = () => {
       <nav>
         <ul className={styles.navList}>
           <li>
-            <a href="#about">About</a>
+            <Link href="/aboutPage">About</Link>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <Link href="/projectsPage">Projects</Link>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <Link href="/contactPage">Contact</Link>
           </li>
         </ul>
       </nav>
