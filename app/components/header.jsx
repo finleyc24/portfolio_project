@@ -7,14 +7,20 @@ const Header = () => {
       <h1>Cole Finley</h1>
       <nav>
         <ul className={styles.navList}>
-          <li className={styles.navItem}>
-            <Link href="/aboutPage">About</Link>
+          <li>
+            <Link className={styles.navLink} href="/aboutPage">
+              About
+            </Link>
           </li>
-          <li className={styles.navItem}>
-            <Link href="/projectsPage">Projects</Link>
+          <li>
+            <Link className={styles.navLink} href="/projectsPage">
+              Projects
+            </Link>
           </li>
-          <li className={styles.navItem}>
-            <Link href="/contactPage">Contact</Link>
+          <li>
+            <Link className={styles.navLink} href="/contactPage">
+              Contact
+            </Link>
           </li>
         </ul>
       </nav>
