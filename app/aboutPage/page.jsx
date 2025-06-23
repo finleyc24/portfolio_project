@@ -1,9 +1,9 @@
 import React from "react";
-
+import style from "./styles.module.css";
 const AboutPage = () => {
   return (
     <div>
-      <h1>About Cole Finley</h1>
+      <header className={style.header}>About Cole Finley</header>
       <p>
         Cole Finley is a software engineer with a passion for building
         innovative web applications. With a background in computer science and a
