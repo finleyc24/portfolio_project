@@ -1,8 +1,14 @@
+import React from "react";
+import Header from "./components/header";
+import Footer from "./components/footer";
+
 export default function Page() {
+  // This is the main page of the application.
+
   return (
     <>
-      <h1>Cole Finley</h1>
-      <p>I'm an Alumni from Hanover college.</p>
+      <Header />
+      <Footer />
     </>
   );
 }
