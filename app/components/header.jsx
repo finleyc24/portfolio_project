@@ -19,8 +19,8 @@ const Header = () => {
       <nav>
         <ul className={styles.navList}>
           <li>
-            <Link className={styles.navLink} href="/aboutPage">
-              About
+            <Link className={styles.navLink} href="./">
+              Home
             </Link>
           </li>
           <li>
