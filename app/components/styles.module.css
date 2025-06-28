@@ -1,12 +1,27 @@
 .header {
     font-size: 2em;
-    color: #2b2b2b;
     text-align: center;
-    margin-top: 10px;
     background-color: #c2c2c2;
-    padding: 5px;
+    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    text-align: center;
+}
+
+.container img {
+    border-radius: 50%;
+}
+
+.container h1 {
+    font-size: 2em;
+    color: #424242;
+    margin: 0 0 20px 0;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
 }
 
 .navList {
@@ -19,15 +34,14 @@
 
 .navLink {
     font-size: 1em;
-    color: #2b2b2b;
-    text-decoration: none;
+    color: #424242;
+    text-decoration: underline solid transparent;
+    transition: text-decoration-color 0.3s ease;
     margin: 0 15px;
 }
 
 .navLink:hover {
-    color: #292929;
-    font-size: 1.1em;
-    text-decoration: underline;
+    text-decoration-color: #424242;
 }
 
 .footer {
